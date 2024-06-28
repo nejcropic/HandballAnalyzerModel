@@ -45,4 +45,4 @@ clf.fit(X_train, y_train)
 # Predict and evaluate
 y_pred = clf.predict(X_test)
 
-print(f'Accuracy: {accuracy_score(y_test, y_pred)}')
+print(f'Accuracy1: {accuracy_score(y_test, y_pred)}')
